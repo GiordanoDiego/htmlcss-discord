@@ -35,8 +35,9 @@ html{
     border-radius: 7px;
     padding: 5px;
 }
-
-
+.color_blue{
+    color: #7389DA;
+}
     /* - - - - - -  - - HEADER RULE - - - - - - - - - - */
 .top-header{
     background-color: #265EE8;
@@ -71,7 +72,7 @@ header nav a{
     text-align: center;
 }
 
-li {
+header li {
     display: inline-block;
 }
 
@@ -79,9 +80,6 @@ h2{
     font-size: 40px;
 } 
 /* - -  - - - - --  -- - - BOTTOM HEADER- - - - - - - - - - - - --  - */
-
-
-/*XXXXXXXX  CAMBIO PER NON AVERE ALTEZZA FISSA XXXXXXX*/
 /* provare a centrarlo senza flex */
 .bottom-header{
     background-image: url("../img/jumbo.png");
@@ -256,6 +254,22 @@ footer h3{
     height: 4px;
     width: 100%;
 }
+/* RIGHT SECTION TOP FOOTER */
+.top-footer h5{
+    color: #7389DA;
+}
+
+footer li{
+    list-style: none;
+    padding-bottom: 10px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
 
 /*  - -- - - - - - - - - - -BOTTOM FOOTER  - -- - - - - - - - - -*/
 .bottom-footer{
