@@ -249,10 +249,11 @@ footer h3{
 }
 
 .top-footer hr {
-    background: white;
-    margin-top: 30px;
-    height: 4px;
+    background: #7389DA;
+    height: 1px;
     width: 100%;
+    border: 0;
+
 }
 /* RIGHT SECTION TOP FOOTER */
 .top-footer h5{
@@ -288,11 +289,10 @@ footer a{
     padding: 3px;
 }
 
-
-
-
-
-
+.bottom-footer a{
+    background-color: #7389DA;
+    color: white;
+}
 
 
 /* ------------------DEBUG------------------------ */
@@ -322,7 +322,6 @@ footer a{
     background-color: plum;
 
 }
-
 
 .debug main .section-main-2, .debug main .section-main-4{
     background-color: lightgray;
