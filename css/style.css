@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 
-
+html{
+    font-family: sans-serif;
+}
 /*  - - - - - - - - - - -- - GENERAL RULE - - - - - - - - - - - - - */
 .container{
     max-width: 1200px;
@@ -18,7 +20,32 @@
     flex-wrap: wrap;
 }
 
+.button-specific{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.gray-background{
+    background-color: #23272A;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+
     /* - - - - - -  - - HEADER RULE - - - - - - - - - - */
+.top-header{
+    background-color: #265EE8;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
 
 /*XXXXXXXX   CAMBIO PER NON AVERE ALTEZZA FISSA XXXXXXX*/
 .top-header-section{
@@ -34,6 +61,7 @@
 .logo-header, .login{
     width: 20%;
 }
+
 
 .login{
     text-align: right;
@@ -53,18 +81,35 @@ li {
 /*XXXXXXXX  CAMBIO PER NON AVERE ALTEZZA FISSA XXXXXXX*/
 /* provare a centrarlo senza flex */
 .bottom-header{
-    justify-content: center;
-    align-items: center;
+    background-image: url("../img/jumbo.png");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-position: center;
+}
 
+.container-small{
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%; 
+    text-align: center;
 }
 
 .bottom-header-section{
     min-height: 400px;
-    width: 60%;
 }
 
+.container-small h1, .container-small p{
+    margin: 20px;
+    color: white;
+    line-height: 25px;
+}
+
+.container-small a{
+    margin: 10px;
+}
     /* ----------- - - - - - - - -MAIN RULE - - - - - - -- - - -------------*/
 /*XXXXXXXX  CAMBIO PER NON AVERE ALTEZZA FISSA XXXXXXX*/
 .section-padding{
@@ -87,6 +132,21 @@ li {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+/* --------SECTION 1--------- */
+.section-main-1 .section-right >*{
+    padding: 10px;
+}
+
+.section-main-1 .section-right h2{
+    font-size: 40px;
+} 
+.section-main-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
 
 /* ---------- -  - - - - - - FOOTER RULE - - - - - -- - - --------------- */
 
@@ -136,6 +196,7 @@ li {
     border: 1px dashed red;
 }
 
+/*
 .debug header .top-header{
     background-color: #ADD8E6;
 }
@@ -143,15 +204,19 @@ li {
 .debug header .top-header .top-header-section > *{
     background-color: orange;
 }
+*/
+
 
 .debug header .bottom-header {
     background-color: blue;
 }
 
-.debug header .bottom-header > *{
+
+.debug header .container-small{
     background-color: plum;
 
 }
+
 
 .debug main .section-main-2, .debug main .section-main-4{
     background-color: lightgray;
