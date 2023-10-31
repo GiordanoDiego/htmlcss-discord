@@ -195,9 +195,11 @@ h2{
         text-decoration: none;
         border-radius: 7px;
         margin-top: 20px;
-        /* CENTRO IL LINK */
+        /* CENTRO IL LINK il link viene visualizzato come testo in questo caso */
         margin-left: auto;
         margin-right: auto;
+        display: block;
+        max-width: 15%;
 
 }
 
@@ -206,11 +208,35 @@ h2{
 
 
 /* ---------- -  - - - - - - FOOTER RULE - - - - - -- - - --------------- */
-
-.top-footer{
-    padding: 20px 0;
+footer{
+    background-color: #23272A;
+    color: white;
 }
 
+footer h3{
+    font-size: 25px;
+    color: #7389DA;
+}
+
+.top-footer .left-top-footer img, .top-footer .left-top-footer span{
+    height: 12px;
+}
+
+.top-footer{
+    padding-top: 50px;
+}
+
+.top-footer h3{
+    padding-bottom: 10px;
+}
+
+.top-footer p{
+    padding-top: 10px;
+}
+
+.top-footer p >*{
+    padding-right: 10px;
+}
 .left-top-footer{
     width: 25%;
     min-height: 350px;
@@ -256,11 +282,13 @@ h2{
 
 
 /* ------------------DEBUG------------------------ */
+
+/*
 .debug *{
     border: 1px dashed red;
 }
 
-/*
+
 .debug header .top-header{
     background-color: #ADD8E6;
 }
@@ -268,7 +296,7 @@ h2{
 .debug header .top-header .top-header-section > *{
     background-color: orange;
 }
-*/
+
 
 
 .debug header .bottom-header {
@@ -319,4 +347,4 @@ h2{
     background-color: pink;
 }
 
-
+*/
