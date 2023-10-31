@@ -1,0 +1,193 @@
+/* RESET RULE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*  - - - - - - - - - - -- - GENERAL RULE - - - - - - - - - - - - - */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    /* - - - - - -  - - HEADER RULE - - - - - - - - - - */
+
+/*XXXXXXXX   CAMBIO PER NON AVERE ALTEZZA FISSA XXXXXXX*/
+.top-header-section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*XXXXXXXX  CAMBIO PER NON AVERE ALTEZZA FISSA XXXXXXX*/
+.top-header-section > *{
+    padding: 10px;
+}
+
+.logo-header, .login{
+    width: 20%;
+}
+
+.login{
+    text-align: right;
+}
+.link{
+    width: 60%;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+/* - -  - - - - --  -- - - BOTTOM HEADER- - - - - - - - - - - - --  - */
+
+
+/*XXXXXXXX  CAMBIO PER NON AVERE ALTEZZA FISSA XXXXXXX*/
+/* provare a centrarlo senza flex */
+.bottom-header{
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.bottom-header-section{
+    min-height: 400px;
+    width: 60%;
+}
+
+    /* ----------- - - - - - - - -MAIN RULE - - - - - - -- - - -------------*/
+/*XXXXXXXX  CAMBIO PER NON AVERE ALTEZZA FISSA XXXXXXX*/
+.section-padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-left{
+    width: 70%;
+    height: 300px;
+}
+
+.section-right{
+    width: 30%;
+    height: 300px;
+}
+
+.section-main-4-box{
+    min-height: 600px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* ---------- -  - - - - - - FOOTER RULE - - - - - -- - - --------------- */
+
+.top-footer{
+    padding: 20px 0;
+}
+
+.left-top-footer{
+    width: 25%;
+    min-height: 350px;
+}
+
+.right-top-footer{
+    width: 75%;
+    min-height: 350px;
+}
+.right-top-footer > *{
+    width: calc(100% / 4);
+}
+
+.top-footer hr {
+    background: white;
+    margin-top: 30px;
+    height: 4px;
+    width: 100%;
+}
+
+/*  - -- - - - - - - - - - -BOTTOM FOOTER  - -- - - - - - - - - -*/
+.bottom-footer{
+    justify-items: center;
+    align-items: flex-end;
+}
+
+.bottom-footer-section{
+    min-height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo, .bottone{
+    padding: 3px;
+}
+
+/* ------------------DEBUG------------------------ */
+.debug *{
+    border: 1px dashed red;
+}
+
+.debug header .top-header{
+    background-color: #ADD8E6;
+}
+
+.debug header .top-header .top-header-section > *{
+    background-color: orange;
+}
+
+.debug header .bottom-header {
+    background-color: blue;
+}
+
+.debug header .bottom-header > *{
+    background-color: plum;
+
+}
+
+.debug main .section-main-2, .debug main .section-main-4{
+    background-color: lightgray;
+
+}
+
+.debug .section-left{
+    background-color: #1D90FF;
+}
+
+.debug .section-right{
+    background-color: #FFC1CB;
+}
+
+.debug .section-main-4-box{
+    background-color: green;
+}
+
+.debug footer > *{
+    background-color: #23272A;
+}
+
+.debug .left-top-footer{
+    background-color: #F08080;
+}
+
+.debug .right-top-footer{
+    background-color: #21B2AA;
+}
+
+.debug .bottom-footer-section{
+    background-color: #21B2AA;
+}
+
+.debug .bottom-footer-section >*{
+    background-color: pink;
+}
+
+
