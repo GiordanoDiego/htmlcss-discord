@@ -1,0 +1,392 @@
+/* RESET RULE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+/*  - - - - - - - - - - -- - GENERAL RULE - - - - - - - - - - - - - */
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-specific{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.gray-background{
+    background-color: #23272A;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 5px;
+}
+.color_blue{
+    color: #7389DA;
+}
+
+/* -----WAVE LAYOUT----- */
+
+.translation-section img{
+    min-width: 100%;
+    max-height: 50px;
+}
+
+.filter-details{
+    filter: invert(70%) sepia(35%) saturate(0%) hue-rotate(147deg) brightness(107%) contrast(95%);
+}
+
+.section-main-2{
+    margin-top: -20px;
+}
+
+.filter-details-end-section2{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(356deg) brightness(103%) contrast(101%);
+    background-color: #3e3e3e;
+}
+    /* - - - - - -  - - HEADER RULE - - - - - - - - - - */
+.top-header{
+    background-color: #265EE8;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.top-header-section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-header-section > *{
+    padding: 10px;
+}
+
+.logo-header, .login{
+    width: 20%;
+}
+
+
+.login{
+    text-align: right;
+}
+.link{
+    width: 60%;
+    text-align: center;
+}
+
+header li {
+    display: inline-block;
+}
+
+h2{
+    font-size: 40px;
+} 
+/* - -  - - - - --  -- BOTTOM HEADER- - - - - - - - - - - - --  - */
+.bottom-header{
+    background-image: url("../img/jumbo.png");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+}
+
+.container-small{
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%; 
+    text-align: center;
+}
+
+.bottom-header-section{
+    min-height: 300px;
+}
+
+.container-small h1, .container-small p{
+    margin: 20px;
+    color: white;
+    line-height: 25px;
+}
+
+.container-small a{
+    margin: 10px;
+}
+
+    /* ----------- - - - - - - - -MAIN RULE - - - - - - -- - - -------------*/
+.section-padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-left{
+    width: 70%;
+    height: 300px;
+}
+
+.section-right{
+    width: 30%;
+    height: 300px;
+}
+
+.section-main-4-box{
+    min-height: 600px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* --------SECTION 1--------- */
+.section-main-1{
+padding-bottom: 20px;
+}
+
+.section-main-1 .section-right >*{
+    padding: 10px;
+}
+
+
+.section-main-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* --------SECTION 2--------- */
+.section-main-2{
+    /* background-color: lightgray; */
+    background-color: #C9C9C9;
+}
+
+.section-main-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+/* --------SECTION 3--------- */
+.section-main-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+/* --------SECTION 4--------- */
+.section-main-4{
+    background-color: #C9C9C9;
+    padding-top: 10px;
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+.section-main-4 h2, .section-main-4 p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-main-4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-main-4 h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.star-background{
+    background-image: url("../img/stars.svg");
+    padding: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-main-4 .button-specific{
+        color: white;
+        background-color: #7389DA;
+        padding: 5px;
+        text-decoration: none;
+        border-radius: 7px;
+        margin-top: 20px;
+        /* CENTRO IL LINK il link viene visualizzato come testo in questo caso */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 15%;
+
+}
+
+.section-main-4 a{
+}
+
+
+/* ---------- -  - - - - - - FOOTER RULE - - - - - -- - - --------------- */
+footer{
+    background-color: #23272A;
+    color: white;
+}
+
+footer h3{
+    font-size: 25px;
+    color: #7389DA;
+}
+
+.top-footer .left-top-footer img, .top-footer .left-top-footer span{
+    height: 12px;
+}
+
+.top-footer{
+    padding-top: 50px;
+}
+
+.top-footer h3{
+    padding-bottom: 10px;
+}
+
+.top-footer p{
+    padding-top: 10px;
+}
+
+.top-footer p >*{
+    padding-right: 10px;
+}
+.left-top-footer{
+    width: 25%;
+    min-height: 350px;
+}
+
+.right-top-footer{
+    width: 75%;
+    min-height: 350px;
+}
+.right-top-footer > *{
+    width: calc(100% / 4);
+}
+
+.top-footer hr {
+    background: #7389DA;
+    height: 1px;
+    width: 100%;
+    border: 0;
+
+}
+/* RIGHT SECTION TOP FOOTER */
+.top-footer h5{
+    color: #7389DA;
+}
+
+footer li{
+    list-style: none;
+    padding-bottom: 10px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*  - -- - - - - - - - - - -BOTTOM FOOTER  - -- - - - - - - - - -*/
+.bottom-footer{
+    justify-items: center;
+    align-items: flex-end;
+}
+
+.bottom-footer-section{
+    min-height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo, .bottone{
+    padding: 3px;
+}
+
+.bottom-footer a{
+    background-color: #7389DA;
+    color: white;
+}
+
+
+/* ------------------DEBUG------------------------ */
+
+/*
+.debug *{
+    border: 1px dashed red;
+}
+
+
+.debug header .top-header{
+    background-color: #ADD8E6;
+}
+
+.debug header .top-header .top-header-section > *{
+    background-color: orange;
+}
+
+
+
+.debug header .bottom-header {
+    background-color: blue;
+}
+
+
+.debug header .container-small{
+    background-color: plum;
+
+}
+
+.debug main .section-main-2, .debug main .section-main-4{
+    background-color: lightgray;
+
+}
+
+
+.debug .section-left{
+    background-color: #1D90FF;
+}
+
+.debug .section-right{
+    background-color: #FFC1CB;
+}
+
+.debug .section-main-4-box{
+    background-color: green;
+}
+
+.debug footer > *{
+    background-color: #23272A;
+}
+
+.debug .left-top-footer{
+    background-color: #F08080;
+}
+
+.debug .right-top-footer{
+    background-color: #21B2AA;
+}
+
+.debug .bottom-footer-section{
+    background-color: #21B2AA;
+}
+
+.debug .bottom-footer-section >*{
+    background-color: pink;
+}
+
+*/
