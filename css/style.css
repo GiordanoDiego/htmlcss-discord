@@ -48,13 +48,11 @@ header nav a{
     text-decoration: none;
 }
 
-/*XXXXXXXX   CAMBIO PER NON AVERE ALTEZZA FISSA XXXXXXX*/
 .top-header-section{
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-/*XXXXXXXX  CAMBIO PER NON AVERE ALTEZZA FISSA XXXXXXX*/
 .top-header-section > *{
     padding: 10px;
 }
@@ -79,8 +77,7 @@ header li {
 h2{
     font-size: 40px;
 } 
-/* - -  - - - - --  -- - - BOTTOM HEADER- - - - - - - - - - - - --  - */
-/* provare a centrarlo senza flex */
+/* - -  - - - - --  -- BOTTOM HEADER- - - - - - - - - - - - --  - */
 .bottom-header{
     background-image: url("../img/jumbo.png");
     height: 100%;
@@ -99,7 +96,7 @@ h2{
 }
 
 .bottom-header-section{
-    min-height: 400px;
+    min-height: 300px;
 }
 
 .container-small h1, .container-small p{
@@ -113,7 +110,6 @@ h2{
 }
 
     /* ----------- - - - - - - - -MAIN RULE - - - - - - -- - - -------------*/
-/*XXXXXXXX  CAMBIO PER NON AVERE ALTEZZA FISSA XXXXXXX*/
 .section-padding{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -136,6 +132,10 @@ h2{
 }
 
 /* --------SECTION 1--------- */
+.section-main-1{
+padding-bottom: 20px;
+}
+
 .section-main-1 .section-right >*{
     padding: 10px;
 }
@@ -327,6 +327,7 @@ footer a{
     background-color: lightgray;
 
 }
+
 
 .debug .section-left{
     background-color: #1D90FF;
